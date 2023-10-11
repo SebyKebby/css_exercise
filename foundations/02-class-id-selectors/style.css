@@ -1,0 +1,17 @@
+.deja,
+.twenty4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif   ;
+    background-color: pink;
+}
+.twenty4{
+    font-size: 24px;
+}
+#blue {
+    color: blue;
+    font: 36px;
+}
+.lgreen {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
