@@ -26,7 +26,9 @@ input {
 }
 
 /* SOLUTION */
-
+*{
+  border: 1px red solid;
+}
 body {
   display: flex;
   flex-direction: column;
