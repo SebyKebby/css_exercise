@@ -1,0 +1,7 @@
+*{
+    border:1px red solid;
+}
+.content2 {
+    display: flex;
+    flex-flow: column;
+}
