@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+    // Your JavaScript goes here!
+    function capitalize(lowercase,uppercase,both ) {
+     const capitalizeLower = lowercase.charAt(0).toUpperCase() + lowercase.slice(1).toLowerCase();
+     const capitalizeUpper = uppercase.charAt(0).toUpperCase() + uppercase.slice(1).toLowerCase();
+     const capitalizeBoth = both.charAt(0).toUpperCase() + both.slice(1).toLowerCase();
+     console.log(capitalizeLower, capitalizeUpper , capitalizeBoth)
+     return `${capitalizeLower} ${capitalizeUpper} ${capitalizeBoth}`
+     }
+
+     capitalize("hello","HELLO","hEllO");
+
+  </script>
+</body>
+</html>
